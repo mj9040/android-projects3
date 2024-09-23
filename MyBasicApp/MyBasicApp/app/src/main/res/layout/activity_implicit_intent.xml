@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ImplicitIntentActivity">
+
+    <EditText
+        android:id="@+id/edPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:inputType="phone"
+        android:hint="Enter mobile no."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/callBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Call"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edPhone" />
+
+    <Button
+        android:id="@+id/dailpadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Dailpad"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/callBtn"
+        app:layout_constraintStart_toStartOf="@+id/callBtn"
+        app:layout_constraintTop_toBottomOf="@+id/callBtn" />
+
+    <Button
+        android:id="@+id/contactBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Contact"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/dailpadBtn"
+        app:layout_constraintStart_toStartOf="@+id/dailpadBtn"
+        app:layout_constraintTop_toBottomOf="@+id/dailpadBtn" />
+
+    <Button
+        android:id="@+id/callLogBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Call Log"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/contactBtn"
+        app:layout_constraintStart_toStartOf="@+id/contactBtn"
+        app:layout_constraintTop_toBottomOf="@+id/contactBtn" />
+
+    <Button
+        android:id="@+id/browserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Browser"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/callLogBtn"
+        app:layout_constraintStart_toStartOf="@+id/callLogBtn"
+        app:layout_constraintTop_toBottomOf="@+id/callLogBtn" />
+
+    <Button
+        android:id="@+id/facebookBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Facebook"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/browserBtn"
+        app:layout_constraintStart_toStartOf="@+id/browserBtn"
+        app:layout_constraintTop_toBottomOf="@+id/browserBtn" />
+
+    <Button
+        android:id="@+id/gmailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Gmail"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/facebookBtn"
+        app:layout_constraintStart_toStartOf="@+id/facebookBtn"
+        app:layout_constraintTop_toBottomOf="@+id/facebookBtn" />
+
+    <Button
+        android:id="@+id/sharingBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:text="Sharing"
+        android:textSize="20sp"
+        android:backgroundTint="#706363"
+        android:textColor="#E19434"
+        app:layout_constraintEnd_toEndOf="@+id/gmailBtn"
+        app:layout_constraintStart_toStartOf="@id/gmailBtn"
+        app:layout_constraintTop_toBottomOf="@+id/gmailBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

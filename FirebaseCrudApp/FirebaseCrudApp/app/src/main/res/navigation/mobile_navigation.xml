@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dashboard">
+
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.example.firebasecrudapp.ui.DashboardFragment"
+        android:label="@string/menu_dash"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_add"
+            app:destination="@id/add" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.firebasecrudapp.ui.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/add"
+        android:name="com.example.firebasecrudapp.ui.AddMobileFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_add_mobile" >
+        <action
+            android:id="@+id/action_add_to_dashboard"
+            app:destination="@id/dashboard" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Firebase Crud App</string>
+    <string name="app">Firebase Crud Application</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_dash">Dashboard</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_search">Add Mobile</string>
+
+    <string name="name">Enter Name</string>
+    <string name="email">Enter Email</string>
+    <string name="mobile">Enter Mobile</string>
+    <string name="pass">Enter Password</string>
+    <string name="cnf_pass">Enter Confirm Password</string>
+    <string name="register">Register Now</string>
+    <string name="account">Already have an account?</string>
+    <string name="login">Login</string>
+
+    <string name="forgot">Forgot Password?</string>
+    <string name="reg">New here?</string>
+    <string name="regis">Register</string>
+
+    <string name="action_logout">Logout</string>
+    <string name="my_name">N N R </string>
+    <string name="p_name">Name </string>
+    <string name="p_email">Email </string>
+    <string name="p_pass">Pass </string>
+
+    <string name="select_pic">Choose Mobile Picture</string>
+    <string name="add">Add Mobile Record </string>
+    <string name="color">Enter Color </string>
+    <string name="price">Enter Price</string>
+
+    <string name="update">Update Mobile Record</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="up">Update</string>
+    <string name="remove">Remove</string>
+
+</resources>

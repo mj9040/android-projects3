@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Basic Kotlin App</string>
+    <string name="figma">Figma Design</string>
+    <string name="cal">Calculator Screen</string>
+    <string name="recycle">Recycler View</string>
+    <string name="login">Register Screen</string>
+    <string name="intent">Intent Function</string>
+    <string name="my_name">N N R</string>
+
+    <string name="country">India</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="divide">/</string>
+    <string name="equal">=</string>
+    <string name="dot">.</string>
+    <string name="percent">%</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+
+    <string-array name="programming">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Python</item>
+        <item>Dart</item>
+        <item>Flutter</item>
+        <item>JavaScript</item>
+    </string-array>
+
+
+</resources>
